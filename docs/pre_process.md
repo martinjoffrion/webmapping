@@ -25,7 +25,7 @@ The main purpose of this part of the projet is to obtain a time series of Sentin
 
 Flowchart explaing the different steps below :
 
-![An image](./data/pre_processing.png)
+![An image](./assets/pre_processing.png)
 
 Besides names and directory manipulation the chain mainly rest on 5 functions applied at different moments
 

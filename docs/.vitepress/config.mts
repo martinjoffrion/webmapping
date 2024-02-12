@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Project details', link: '/pre_process' },
-      { text: 'Wepmapping', link: '/markdown-examples' }
+      { text: 'Wepmapping', link: '/web_service_params' }
     ],
 
     sidebar: [
@@ -35,7 +35,11 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
     
+  },
+  vite: {
+    assetsInclude : "**/*.PNG"
   }
+
 })
 
 // Favicon ? ?npm i --save-dev @types/node?

@@ -1,6 +1,8 @@
 ---
 outline: deep
 ---
+
+
 # Creation of a Leaflet Map
 
 <script setup>
@@ -11,11 +13,12 @@ import { onMounted, reactive, ref } from 'vue'
 
 import 'leaflet/dist/leaflet.css';
 
-import L from 'leaflet';
+// import L from 'leaflet';
 
 const { site, theme, page, frontmatter } = useData()
 
-onMounted(() => {
+    onMounted(() => {
+  import('leaflet').then((L) => {
   // Création d'une carte Leaflet dont relié à l'id html 'map' qui a comme coordonnées 
   var map = L.map('map').setView( [43.3, 1.4], 10);
 
@@ -66,8 +69,7 @@ legend_simple.addTo(map);
 
 L.control.layers(baseMaps,overlayMaps).addTo(map);
 
-});
-
+})});
 </script>
 
 ## Results
@@ -77,6 +79,7 @@ L.control.layers(baseMaps,overlayMaps).addTo(map);
 <div id="map" class="mapleaflet" style="height: 500px;width: 100%; "></div>
 </body>
 </html>
+
 
 ## Details code
 

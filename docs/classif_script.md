@@ -56,7 +56,7 @@ This loop is performed in the following order:
 
 **This sums up graphically like below:**
 
-![An image](./data/classification.png)
+![An image](./assets/classification.png)
 
 ## Evaluation Loop
 
@@ -153,7 +153,7 @@ Respectively level 1;
 level 1 from level 2 aggregation;
 level 1 from level 3 aggregation;
 
-![An image](./data/lvl1_class.png)
+![An image](./assets/lvl1_class.png)
 :::
 ### Level 2 
 On the opposite, the level 2 obtained with superior level aggregation is better. In this case, the benefits of aggregation could be significant.
@@ -167,13 +167,13 @@ The **Mixed Pines** and Other Conifers class showed the worst results, due to it
 Respectively level 2;
 level 2 from level 3 aggregation;
 
-![An image](./data/lvl2_class.png)
+![An image](./assets/lvl2_class.png)
 :::
 
 ### Level 3
 The overall quality of model 3 is very average, with an OA of 0.46.
 Most of the confusion occurred in the Pure Oak and Mixted Hardwood classes.
 ::: details Class quality estimation
-![An image](./data/cl_code_lvl3.png)
+![An image](./assets/Cl_Code_lvl3.png)
 :::
 

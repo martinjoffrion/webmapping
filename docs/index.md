@@ -27,4 +27,6 @@ features:
   - title: Webmapping
     details: Displays results and use geoserver facilities
 ---
-
+<script>
+  var global = global || window;
+</script>

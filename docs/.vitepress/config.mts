@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Classification BD_Forêt",
+  base: '/webmapping/',
   description: "Advanced Remote Sensing Project",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
